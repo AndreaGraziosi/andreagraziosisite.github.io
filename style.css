@@ -1,0 +1,64 @@
+html {
+    margin: 0;
+    background-color: rgb(100%, 100%, 100%);
+}
+
+    body{
+        margin:0;
+        font-family: optima, sans-serif;
+        line-height: 1.5;
+        
+        }
+      
+
+      h1{
+          text-align: center;
+          color: #362a22;
+      } 
+     h2{
+    
+       text-align: center;
+       color: #362a22;
+     }
+       h3{
+        text-align: center;
+        color: #362a22;
+     }
+        #nav {
+            
+            justify-content: space-around;
+            align-items: center;
+            padding: 1em;
+            background-color: #1d1a18;
+            color: #eee;
+            display: flex;
+        }
+            
+    
+        nav ul {
+            display: flex;
+            list-style: none;
+            
+        }
+        nav a {
+            text-decoration: none;
+            color: #eee;
+        
+
+
+        }
+        
+    
+        
+
+      
+            
+        
+        
+        
+        
+    
+
+
+
+
