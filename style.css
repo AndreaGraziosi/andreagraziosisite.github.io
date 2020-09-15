@@ -26,10 +26,10 @@ html {
         color: #362a22;
      }
     
-        #nav {
+        #nav nav {
             
             padding: 1em;
-            background-color: #1d1a18;
+            
             color: #eee;
             display: flex;
             justify-content: center;
@@ -38,7 +38,10 @@ html {
         #nav ul {
             display: flex;
             list-style: none;
-            justify-content: space-between;
+            justify-content: space-around;
+            background-color: #1d1a18;
+            height: 120px;
+            align-items: center;
         }
         #nav a {
             text-decoration: none;
@@ -47,17 +50,20 @@ html {
             justify-content: space-between;
         }
 
-        #om > div h2 p {
-        }
-        #0m ul {
+
+        #om ul {
             display:flex;
             flex-direction:row;
-
+            padding:2em;
+            margin:1em;
+            justify-content: center;
+            list-style: none;
+           
         }
             .chant {
                 width: 300px;
-                height: 625px;;
-                margin: 2em 0 2em 0;
+                height: 680px;;
+                margin: 2em 2em 2em 2em;
                 padding: 2em;
                 background-color: #eee;
                     
@@ -69,21 +75,13 @@ html {
             .chant h3 {
                     font-size: 2em;
                     text-align: center;
+                    margin: 2em 0 2em 0;
                 }
     
             .chant h3, .card p {
                     margin: 1rem;
                     text-align: center;
                 } 
-
-        
-
-
-
-
-
-
-
 
         
         #practice {
@@ -115,6 +113,7 @@ html {
             margin: 2em 0 2em 0;
             padding: 2em;
             background-color: #eee;
+          
                 
         }
 			.card img {
@@ -127,7 +126,7 @@ html {
 			}
 
 			.card h3, .card p {
-                margin: 1rem;
+                margin: 2rem;
                 text-align: center;
             }
             .card button {
@@ -140,13 +139,73 @@ html {
                 width:200px;
                 height: 25px;
                 border: none;
-                align-self: flex-end;
+                align-items: center;
+                border-radius:2px;
+            }
+            
+             .tutorial {
+                background-color: #eee;
+                width: 450px;
+                height: 350px;;
+                margin: 2em 0 2em 0;
+                padding: 2em; 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
+             }
+            .tutorial button {
+                color:  #1d1a18;
+                background-color: olivedrab;
+                flex-direction: column;
+                display: flex;
+                padding: .15em;
+                margin:.5em;
+                width:200px;
+                height: 25px;
+                border: none;
+                align-items: center;
+                border-radius: 2px;
+            }
+            
+                
+             .tutorial div{
+                 display:flex;
+                 justify-content: center;
+                 align-items: center;
+             }
+            #tutorial div{
+                display:flex;
+                justify-content: center;
+            }
+             
+            #contact form{
+                background-color: #1d1a18;
+                height: 350px;
+                padding:3em;
+                color:#eee;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #contact button {
+                color:  #1d1a18;
+                background-color: olivedrab;
+                flex-direction: column;
+                display: flex;
+                padding: .15em;
+                margin:.5em;
+                width:200px;
+                height: 25px;
+                border: none;
+                align-items: center;
+                border-radius: 2px;
+            }
+            #contact label {
+                padding:1.5em;
+            }
+            #contact label {
+                align-items: center;
 
             }
-        
-    
-
-
-
-
+            
