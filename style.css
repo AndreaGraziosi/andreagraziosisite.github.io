@@ -240,11 +240,7 @@ h3 {
     justify-content: space-around;
     list-style: none;
     flex-wrap: wrap;
-
-
 }
-
-.props li {}
 
 .props p {
     margin: 0;
