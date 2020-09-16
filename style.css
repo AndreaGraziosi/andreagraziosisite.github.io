@@ -4,208 +4,252 @@ html {
     height: 100%;
 }
 
-    body{
-        margin:0;
-        font-family: optima, sans-serif;
-        line-height: 1.5;
-        
-        }
-      
+body {
+    margin: 0;
+    font-family: optima, sans-serif;
+    line-height: 1.5;
 
-     h1{
-        text-align: center;
-        color: #362a22;
-      } 
-     h2{
-    
-       text-align: center;
-       color: #362a22;
-     }
-    h3{
-        text-align: center;
-        color: #362a22;
-     }
-    
-        #nav nav {
-            
-            padding: 1em;
-            
-            color: #eee;
-            display: flex;
-            justify-content: center;
-        }
-     
-        #nav ul {
-            display: flex;
-            list-style: none;
-            justify-content: space-around;
-            background-color: #1d1a18;
-            height: 120px;
-            align-items: center;
-        }
-        #nav a {
-            text-decoration: none;
-            color: #eee;
-            display:flex;
-            justify-content: space-between;
-        }
+}
 
 
-        #om ul {
-            display:flex;
-            flex-direction:row;
-            padding:2em;
-            margin:1em;
-            justify-content: center;
-            list-style: none;
-           
-        }
-            .chant {
-                width: 300px;
-                height: 680px;;
-                margin: 2em 2em 2em 2em;
-                padding: 2em;
-                background-color: #eee;
-                    
-            }
-            .chant img {
-                    width: 100%;
-                }
-    
-            .chant h3 {
-                    font-size: 2em;
-                    text-align: center;
-                    margin: 2em 0 2em 0;
-                }
-    
-            .chant h3, .card p {
-                    margin: 1rem;
-                    text-align: center;
-                } 
+h1 {
+    text-align: center;
+    color: #362a22;
+}
 
-        
-        #practice {
-            background-color: #1d1a18;
-        }
-        #practice ul {
-                list-style: none;
-				margin: 0;
-				padding: 1em;
-				display: flex;
-                justify-content: space-around;
-                color:  #1d1a18;
-        }
+h2 {
 
-        #practice > h2{
-                margin: 1em;
-				font-size: 3em;
-				text-align: center;
-				color:  #1d1a18;
-        }
-        #practice > ul h3 {
-            color:  #1d1a18;
-            text-align: center;
-        }
-    
-        .card {
-            width: 300px;
-            height: 550px;;
-            margin: 2em 0 2em 0;
-            padding: 2em;
-            background-color: #eee;
-          
-                
-        }
-			.card img {
-				width: 100%;
-			}
+    text-align: center;
+    color: #362a22;
+}
 
-			.card h3 {
-                font-size: 2em;
-                text-align: center;
-			}
+h3 {
+    text-align: center;
+    color: #362a22;
+}
 
-			.card h3, .card p {
-                margin: 2rem;
-                text-align: center;
-            }
-            .card button {
-                color:  #1d1a18;
-                background-color: olivedrab;
-                flex-direction: column;
-                display: flex;
-                padding: .15em;
-                margin:.5em;
-                width:200px;
-                height: 25px;
-                border: none;
-                align-items: center;
-                border-radius:2px;
-            }
-            
-             .tutorial {
-                background-color: #eee;
-                width: 450px;
-                height: 350px;;
-                margin: 2em 0 2em 0;
-                padding: 2em; 
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+#nav nav {
 
-             }
-            .tutorial button {
-                color:  #1d1a18;
-                background-color: olivedrab;
-                flex-direction: column;
-                display: flex;
-                padding: .15em;
-                margin:.5em;
-                width:200px;
-                height: 25px;
-                border: none;
-                align-items: center;
-                border-radius: 2px;
-            }
-            
-                
-             .tutorial div{
-                 display:flex;
-                 justify-content: center;
-                 align-items: center;
-             }
-            #tutorial div{
-                display:flex;
-                justify-content: center;
-            }
-             
-            #contact form{
-                background-color: #1d1a18;
-                height: 350px;
-                padding:3em;
-                color:#eee;
-                display:flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            #contact button {
-                color:  #1d1a18;
-                background-color: olivedrab;
-                flex-direction: column;
-                display: flex;
-                padding: .15em;
-                margin:.5em;
-                width:200px;
-                height: 25px;
-                border: none;
-                align-items: center;
-                border-radius: 2px;
-            }
-            #contact label {
-                padding:1.5em;
-            }
-            #contact label {
-                align-items: center;
+    padding: 1em;
 
-            }
-            
+    color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #1d1a18;
+    height: 120px;
+    align-items: center;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#om ul {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin: 1em;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.chant {
+    width: 300px;
+    height: 680px;
+
+    margin: 2em 2em 2em 2em;
+    padding: 2em;
+    background-color: #eee;
+
+}
+
+.chant img {
+    width: 100%;
+}
+
+.chant h3 {
+    font-size: 2em;
+    text-align: center;
+    margin: 2em 0 2em 0;
+}
+
+.chant h3,
+.card p {
+    margin: 1rem;
+    text-align: center;
+}
+
+
+#practice {
+    background-color: #1d1a18;
+}
+
+#practice ul {
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    color: #1d1a18;
+}
+
+#practice>h2 {
+    margin: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: #1d1a18;
+}
+
+#practice>ul h3 {
+    color: #1d1a18;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 550px;
+    ;
+    margin: 2em 0 2em 0;
+    padding: 2em;
+    background-color: #eee;
+
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.card h3,
+.card p {
+    margin: 2rem;
+    text-align: center;
+}
+
+.card button {
+    color: #1d1a18;
+    background-color: olivedrab;
+    flex-direction: column;
+    display: flex;
+    padding: .15em;
+    margin: .5em;
+    width: 200px;
+    height: 25px;
+    border: none;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.tutorial {
+    background-color: #eee;
+    width: 450px;
+    height: 350px;
+    margin: 2em 0 2em 0;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tutorial button {
+    color: #1d1a18;
+    background-color: olivedrab;
+    flex-direction: column;
+    display: flex;
+    padding: .15em;
+    margin: .5em;
+    width: 200px;
+    height: 25px;
+    border: none;
+    align-items: center;
+    border-radius: 2px;
+}
+
+
+.tutorial div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tutorial div {
+    display: flex;
+    justify-content: center;
+}
+
+#contact form {
+    background-color: #1d1a18;
+    height: 350px;
+    padding: 3em;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact button {
+    color: #1d1a18;
+    background-color: olivedrab;
+    flex-direction: column;
+    display: flex;
+    padding: .15em;
+    margin: .5em;
+    width: 200px;
+    height: 25px;
+    border: none;
+    align-items: center;
+    border-radius: 2px;
+}
+
+#contact label {
+    padding: 1.5em;
+}
+
+#contact label {
+    align-items: center;
+
+}
+
+#props section {
+    display: flex;
+    background-color: #eee;
+    flex-direction: row;
+
+}
+
+.props ul {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+
+
+}
+
+.props li {}
+
+.props p {
+    margin: 0;
+    padding: 1em 0 1em 0;
+    text-align: center;
+
+
+}
