@@ -195,7 +195,12 @@ h3 {
 }
 
 #contact form {
-    background-color: #1d1a18;
+        background-image: url("site-images/upwarddog.jpeg");
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     height: 350px;
     padding: 3em;
     color: #eee;
